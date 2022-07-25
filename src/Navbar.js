@@ -4,7 +4,7 @@ export const Navbar = () => {
         <h1>The Dojo Block</h1>
         <div className="links">
             <a href="/">Home</a>
-            <a href="/create">NewBlog</a>
+            <a className="new-blog" href="/create">NewBlog</a>
         </div>
     </nav>
   )
