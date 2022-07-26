@@ -1,10 +1,8 @@
-export const BlogList = (props) => {
-    const blogs = props.blogs;
-
-    console.log(props, blogs);
+export const BlogList = ({blogs, title}) => {
 
   return (
     <div className="blog-list">
+        <h2>{ title }</h2>
         {blogs.map((blog) => (
             <div className="blog-previev" key={ blog.id }>
                 <h2>{ blog.title }</h2>
