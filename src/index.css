@@ -34,7 +34,7 @@ body {
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #8f8686;
 }
 .content {
   max-width: 600px;
@@ -43,4 +43,25 @@ body {
 }
 button{
   color: black;
+}
+
+.blog-previev {
+padding: 10px 16px;
+margin: 20px 0;
+border-bottom: 1px solid #fafafa;
+}
+
+.blog-previev:hover {
+  box-shadow: 1px 3px 5px rgb(255, 255, 255);
+}
+
+.blog-previev h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+.blog-previev p {
+  font-size: 20px;
+  font-weight: normal;
 }
